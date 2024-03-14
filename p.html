@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>portfolio</title>
+</head>
+<body class="font-sans md:font-serif bg-pink-300 m-0 p-0 container box-border">
+
+    <h1 class="flex text-white justify-center">Seye Youssoupha</h1>
+
+    <header class="text-white bg-black fixed top-0 right-0 left-0 md:py-1 transition-all duration-300">
+        <nav>
+
+          <div class="flex item-center justify-between h-12 p-2 m-2">
+                <h1 class="flex text-green-300 justify-center text-lg">SEYE YOUSSOUPHA</h1>
+            <div class="hidden md:flex space-x-10 ">
+                <a href="#" class="hover:bg-indigo-600 text-green-300">HOME</a>
+                <a href="#" class="hover:bg-indigo-600 text-green-300">PROJETS</a>
+                <a href="#" class="hover:bg-indigo-600 text-green-300">CONTACT</a>
+            </div>
+          </div>
+
+        </nav>
+      
+    </header>
+    <section hero class="max-w-7x1 mx-auto py-5 my12">
+        <div class="py-10 text-white flex flex-col md:flex-row justify-between items-center gap-4">
+      <!--left side-->    
+              <div class="md:w-1/2 order-first md:order-none">
+                <p class="text-xl font-inter font-medium mb-4">Bonjour, je m'appelle</p>
+                <h1 class="text-4x1 font-bold traking-[3.22px] mb-5 font-inter">Youssoupha</h1>
+                <p class="text-2x1 font-monstserra mb-5">apprenti en <font color="green">Software developpement</font>chez GOMYCODE</p>
+                 <p class="place-content-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo maiores quaerat enim commodi, iure repellat corrupti ratione earum quia sit unde modi tenetur ducimus recusandae pariatur optio cupiditate eaque reprehenderit doloremque quidem magni similique ex. Nobis magni adipisci rem neque?</p>
+                <button class="py-4 px-10 rounded-mb bg-blue-800 text-white font-bold hover:bg-indigo-600">discutons</button>
+            </div>
+     <!--right side-->
+             <div class="items-center justify-center">
+                <img src="/p css/myface.jpg" alt="logo" class="w-full md:ml-20">
+             </div>
+        </div>
+    </section>
+
+    <section class="projet flex justify-between">
+        <div class="card" style="width: 18rem;">
+            <img src="/p css/ford mustang.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FORD MUSTANG</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eveniet suscipit accusantium amet eaque corporis fuga magni deleniti molestiae esse?</p>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/p css/audi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AUDI</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eveniet suscipit accusantium amet eaque corporis fuga magni deleniti molestiae esse?</p>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/p css/Dodge Challenger SRT.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DODGE CHALLENGER</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eveniet suscipit accusantium amet eaque corporis fuga magni deleniti molestiae esse?</p>
+            </div>
+          </div>
+    </section>
+    <!--end of page-->
+    <div class="pl-20 bg-black text-green-300 flex justify-between">
+        <h3>Pour plus d'information voici mes coordonnés:</h3>
+        <ul>
+            <li>TEL:78-259-28-92</li>
+        </ul>
+        <h3>Email:</h3>
+        <ul type="squarre">
+         <li><a href="#" name="mail">seyeyoussoupha4@gmail.com</a></li>
+         <li><a href="#" name="juniorseye39@gmail.com">juniorseye39@gmail.com</a></li>
+        </ul>
+        <div class="flex space-x-3">
+            <p>Mes reseaux:</p>
+            <a href="#"><img src="/p css/facebook.jpg" alt="" class="w-8 h-8"></a>
+            <a href="#"><img src="/p css/instagram.jpg" alt="" class="w-8 h-8"></a>
+            <a href="#"><img src="/p css/twitter.jpg" alt="" class="w-8 h-8"></a>
+            <a href="#"><img src="/p css/whatsapp.jpg" alt="" class="w-8 h-8"></a>
+        </div>
+    </div>
+    <div class="bg-black text-green-300 flex">
+    <h2 class="font-bold">Veuillez vous renseigner ici!</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="first name" placeholder="Type your name here" />
+        
+  
+        <label>Number:</label>
+        <input type="number" name="number" value="23123456" />
+        
+  
+        <label>Birth Date:</label>
+        <input type="date" name="birthday" />
+        
+  
+        <label>Password:</label>
+        <input type="password" name="password" />
+        
+      </form>
+      <textarea name="message" cols="30" rows="5">
+        Dites nous tous!
+    </textarea>
+</div>
+</body>
+</html>
